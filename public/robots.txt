@@ -1,0 +1,8 @@
+# Controls how search engines crawl and index your site
+
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+# Sitemap location
+Sitemap: https://example.com/public/sitemap.xml
